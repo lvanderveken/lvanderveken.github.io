@@ -1,0 +1,18 @@
+---
+title: "Lilian Vanderveken"
+image: wolf.jpeg
+about:
+  template: trestles
+  links:
+    - text: slide
+      url: "slide.pdf"
+comments: false
+---
+
+
+## Bio
+
+This is a tests 
+
+
+On going works: [here](Tipping)

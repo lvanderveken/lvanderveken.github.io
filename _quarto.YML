@@ -1,0 +1,26 @@
+project:
+  type: website
+  resources:
+    - slide.pdf
+    
+website:
+  title: "Lilian Vanderveken"
+  site-url: https://lvanderveken.github.io/
+  description: "Technology and the Environment"
+  open-graph:
+    locale: en_US
+  twitter-card:
+    creator: "@MikeMahoney218"
+  comments:
+    utterances:
+      repo: mikemahoney218/mm218.dev
+  navbar:
+    right:
+      - text: "Home"
+        href: index.html
+      - text: "Tipping in vegetation patterns model"
+        href: Tipping
+format:
+  html:
+    theme: [sandstone, _variables.scss]
+    css: styles.css
