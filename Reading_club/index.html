@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Lilian Vanderveken">
+
+<title>Reading club</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Reading club</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Lilian Vanderveken </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="presence-or-absence-of-stabilizing-earth-system-feedbacks-on-different-time-scales-doi" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Presence or absence of stabilizing Earth system feedbacks on different time scales <a href="https://www.science.org/doi/10.1126/sciadv.adc9241">(DOI)</a></h1>
+<section id="useful-definitions" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="useful-definitions"><span class="header-section-number">1.1</span> Useful definitions</h2>
+<ul>
+<li><p>Calcium carbonate (<span class="math inline">\mathrm{CaCO_{3}}</span>) is essentially insoluble in sea surface waters today. Shells of dead calcareous plankton sinking to deeper waters are practically unaltered until reaching the lysocline, the point about 3.5 km deep past which the solubility increases dramatically with depth and pressure. By the time the CCD is reached all calcium carbonate has dissolved according to this equation: <span class="math display">\mathrm{CaCO_{3} \, + \, CO_{2} \, + \, H_{2}O  \rightleftharpoons Ca^{2+} \, (aq) + \, 2 \, HCO_{3}^{-} \, (aq)}</span></p></li>
+<li><p>Carbonate compensation depth (CCD) is the depth in the oceans below which the rate of supply of calcite (calcium carbonate) lags behind the rate of solvation, such that no calcite is preserved</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="CCD.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">CCD</figcaption><p></p>
+</figure>
+</div>
+<p>The exact value of the CCD depends on the solubility of calcium carbonate which is determined by <strong>temperature</strong>, <strong>pressure</strong> and the chemical composition of the water – in particular the <strong>amount of dissolved CO2</strong> in the water. Calcium carbonate is more soluble at lower temperatures and at higher pressures. It is also more soluble if the concentration of dissolved CO2 is higher.</p>
+<ul>
+<li>Weathering Feedback (<span class="math inline">\tau</span>: 200 to 400 thousand yaer)</li>
+</ul>
+<p>Rocks exposed at the surface interact with water and the atmosphere and undergo a set of chemical and physical changes we call weathering. The chemical part of weathering often involves the consumption of carbonic acid (formed from water and carbon dioxide) in dissolving minerals in rocks. This process of weathering is thus a sink for atmospheric carbon dioxide, which is an important greenhouse gas. If you remove carbon dioxide from the atmosphere, you weaken the greenhouse effect and this leads to cooling of the Earth. Like many chemical reactions, this chemical weathering occurs more rapidly in hotter climates, which are associated with higher levels of carbon dioxide. So consider a scenario in which some warming occurs; this will encourage faster weathering, which will consume carbon dioxide, which will lead to cooling. In this case, the initial change triggered a set of processes that countered the initial change — this is called a <strong>negative feedback</strong> (even though it may have beneficial results) because it works in opposition to the change that triggered it.</p>
+<ul>
+<li>Marine calcium carbonate cycle</li>
+</ul>
+</section>
+<section id="simple-models" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="simple-models"><span class="header-section-number">1.2</span> Simple models</h2>
+<ul>
+<li>Random walk: <span class="math display"> \frac{dT}{dt}=a\eta (t)</span> =&gt; <span class="math inline">\Delta T_{rms} \alpha \Delta^{1/2}</span></li>
+</ul>
+<div class="cell" data-execution_count="1">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>a<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>dt<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Nt<span class="op">=</span><span class="dv">1000</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Nens<span class="op">=</span><span class="dv">100</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>T0<span class="op">=</span><span class="dv">0</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>T<span class="op">=</span>np.zeros((Nt<span class="op">+</span><span class="dv">1</span>,Nens))</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>T[<span class="dv">0</span>,:]<span class="op">=</span>T0</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(Nens):</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> it <span class="kw">in</span> <span class="bu">range</span>(Nt):</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>        T[it<span class="op">+</span><span class="dv">1</span>,n]<span class="op">=</span>T[it,n]<span class="op">+</span>a<span class="op">*</span>np.random.randn()<span class="op">*</span>np.sqrt(dt)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>plt.figure()</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>plt.plot(T,<span class="st">'b'</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>plt.plot(np.mean(T,axis<span class="op">=</span><span class="dv">1</span>),<span class="st">'r'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<p><img src="index_files/figure-html/cell-2-output-1.png" width="586" height="404"></p>
+</div>
+</div>
+<ul>
+<li>Ornstein-Uhlenbeck process <span class="math display"> \frac{dT}{dt}=- \frac{T}{\tau} + a\eta (t)</span></li>
+</ul>
+<div class="cell" data-execution_count="2">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>a<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>tau<span class="op">=</span><span class="dv">100</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>dt<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>Nt<span class="op">=</span><span class="dv">1000</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>Nens<span class="op">=</span><span class="dv">100</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>T0<span class="op">=</span><span class="dv">10</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>T<span class="op">=</span>np.zeros((Nt<span class="op">+</span><span class="dv">1</span>,Nens))</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>T[<span class="dv">0</span>,:]<span class="op">=</span>T0</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(Nens):</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> it <span class="kw">in</span> <span class="bu">range</span>(Nt):</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>        T[it<span class="op">+</span><span class="dv">1</span>,n]<span class="op">=</span>T[it,n]<span class="op">-</span>T[it,n]<span class="op">/</span>tau<span class="op">*</span>dt<span class="op">+</span>a<span class="op">*</span>np.random.randn()<span class="op">*</span>np.sqrt(dt)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>plt.figure()</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>plt.plot(T,<span class="st">'b'</span>)</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>plt.plot(np.mean(T,axis<span class="op">=</span><span class="dv">1</span>),<span class="st">'r'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<p><img src="index_files/figure-html/cell-3-output-1.png" width="577" height="404"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="abyssal-ocean-overturning-slowdown-and-warming-driven-by-antarctic-meltwater-doi" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Abyssal ocean overturning slowdown and warming driven by Antarctic meltwater <a href="https://www.nature.com/articles/s41586-023-05762-w">(DOI)</a></h1>
+<section id="definitions" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="definitions"><span class="header-section-number">2.1</span> Definitions:</h2>
+<ul>
+<li><p>Antarctic Bottom Water (AABW): cold and fresh water at the bottom of the ocean originating near the Antarctic continental margin and sinking along the continental slope to the ocean bottom.</p></li>
+<li><p>Circumpolar Deep Water (CDW): Intermediate water circulated around the continent. It is warmer and saltier that the surroundin water masses. It contributes to the melting of ice shelves.</p></li>
+<li><p>Dense Shelf Water (DSW) refers to a type of water mass that forms in specific regions of the ocean, typically near continental shelves. It is characterized by its high density compared to the surrounding waters. DSW is formed through a combination of processes, including cooling and increased salinity.</p></li>
+<li><p>Surface water-mass transformation (SWMT): Surface water-mass transformation refers to the process by which water masses in the surface layer of the ocean undergo transformation, leading to changes in their characteristics, such as temperature, salinity, and density. It involves a combination of physical processes, such as evaporation, precipitation, heat exchange with the atmosphere, and mixing with other water masses.</p></li>
+<li><p>Antarctic surface water refers to the water mass that occupies the surface layer of the Southern Ocean surrounding the Antarctic continent. It is characterized by its unique properties, including low temperatures, high salinity, and a complex mixture of water masses from different sources.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="water_masses_ant.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Water masses in the Antarctic</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="model-and-experimental-design." class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="model-and-experimental-design."><span class="header-section-number">2.2</span> Model and experimental design.</h2>
+<p>The model used for this study is the Australian Community Climate and Earth System Simulator Ocean Model version 2 (ACCESS-OM2) with the configuration at nominally 0.1° horizontal resolution (ACCESS-OM2-01). ACCESS-OM2 is a global ocean–sea-ice model driven by a prescribed atmosphere.</p>
+<p>The model is firs spun-up for 200 years with a repeat-year forcing. From the spun-up state, three runs are perfomred with histircal and projhected climate change.:</p>
+<ul>
+<li><p>A control run</p></li>
+<li><p>A perturbed run with anomaleous wind, thermal and meltwater forcing.</p></li>
+<li><p>A perturbed run with anomaleous wind and thermal forcing.</p></li>
+</ul>
+<p>This allows the author to identify the contribution of meltwater forcing to the change in the AABW.</p>
+</section>
+<section id="results" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="results"><span class="header-section-number">2.3</span> Results</h2>
+<ul>
+<li><p>Little change in the DSW for the period 2021-2030 (no change in the SWTM compare to the first part of the run). The impact is more clear for the period 2041-2050 (no more SWTM). Dur to that chang the abyssal ocean becomes warmer and less ventilated (increase in the age).</p></li>
+<li><p>The wind and thermal forcing drives an overall freshening around Antarctica. Maybe due to an increase in the sea-ice melt.</p></li>
+<li><p>The meltwater forcing initially drives an abyssal freshening followed by an increase in hte salinity.</p></li>
+<li><p>Weakening of the global overturning circulation =&gt; Cooling in the abyssal atlantic ocean and warling in the abyssal Southern ocean.</p></li>
+<li><p>Wind- and thermal forcing brings change in the upper ocean but not so much in the abyss.</p></li>
+<li><p>CDW is displaced southward as wa can see in the increase in salinity over the upper continental slope. A warming is also present due to this displacement.</p></li>
+<li><p>The ventilatin and overturning is decreased =&gt; increase in the abyssal age.</p></li>
+<li><p>Changes in the temperature and salinity can be due to adiabatic movement of the isupycnal or changes in mass-properties due to mixing or buoyancy fluxes. With their analysis, they show that, in depth, it is the descent of the isopycnal.</p></li>
+<li><p>Addition of the freshwater causes a freshening of DSW =&gt; less dense AABW =&gt; reduction of AABW =&gt; deepening of the isopycnal =&gt; The CDW moves southward.</p></li>
+<li><p>The reduction of DSW combined with the mixing with older CDW increase the age along the slope.</p></li>
+</ul>
+</section>
+</section>
+<section id="louvain-finance-day" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Louvain finance day</h1>
+<section id="pathways-towards-net-zero-sustainable-investments-philippe-wallez-frédéric-degembe-ing" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="pathways-towards-net-zero-sustainable-investments-philippe-wallez-frédéric-degembe-ing"><span class="header-section-number">3.1</span> Pathways towards net zero &amp; sustainable investments (Philippe Wallez &amp; Frédéric Degembe, ING)</h2>
+<p>How a bank can help to reach the net zero emission:</p>
+<ul>
+<li><p>More activities and portfolio that help meet the global climate goals</p></li>
+<li><p>Help the customers to acheave their own sustainability goals</p></li>
+<li><p>Manage environmental and social risks</p></li>
+<li><p>Support their employees in understanding and reducing their carbon footprint</p></li>
+</ul>
+<p>In the CO2 emission report of a bank, a big part (99%) is coming from their clients.</p>
+<p>Regulatory framework: for the first time, the bank is in demand of more regulation. The EU is develloping a taxonomy to identify which activity is sustainable or not. In the future, the banks will have to publish a report on their sustainable engagements. For each sector, they report the change in CO2. They don’t finance new oil and coal extraction plans.</p>
+<p>THe finance principles don’t change, just the externalities. The banks are a transmission belt between the savings and the economy. Two dimensions: credit and investment. What is behind sustainability? What about biodiversity, land use, etc?</p>
+</section>
+<section id="climate-stakes-learn-from-our-past-to-create-our-future-marie-cavitte" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="climate-stakes-learn-from-our-past-to-create-our-future-marie-cavitte"><span class="header-section-number">3.2</span> Climate stakes : learn from our past to create our future (Marie Cavitte)</h2>
+</section>
+<section id="the-economic-consequences-of-the-energy-transition-hervé-jeanmart-imcn" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="the-economic-consequences-of-the-energy-transition-hervé-jeanmart-imcn"><span class="header-section-number">3.3</span> The economic consequences of the energy transition (Hervé Jeanmart, IMCN)</h2>
+<p>Belgium is in deficit regarding the renewable energy. We have to import a lot of energy. The main difficulty is the transport of renewable energy. Efficency in energy is go for elictrifying. E-fuels: renewable energy turned into fuels and transport by pipelines. According to his model, we need no growth to avoid big bazar. To read: Julia Steinberger ## Because and Within (Jean Boissinot, Banque de France) Il faut demander au système politique de fixer les limites, ce n’est pas le rôle de la finance.</p>
+</section>
+</section>
+<section id="beyond-turing-the-response-of-patterned-ecosystems-to-environmental-change" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Beyond Turing: The response of patterned ecosystems to environmental change</h1>
+<section id="models" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="models"><span class="header-section-number">4.1</span> Models</h2>
+<section id="klausmeier-model-extended" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="klausmeier-model-extended"><span class="header-section-number">4.1.1</span> Klausmeier model extended</h3>
+<p><span class="math display">
+\begin{aligned}
+&amp;\frac{\partial w}{\partial t}=a-w-w n^2+v \frac{\partial w}{\partial x}+e \frac{\partial^2 w^\gamma}{\partial x^2}\\
+&amp;\frac{\partial n}{\partial t}=w n^2-m n+\frac{\partial^2 n}{\partial x^2}
+\end{aligned}
+</span> + Periodic boundary conditions to diminish boundary effects and to mimic an infinite domainµ + multiplicative uniformly distributed noise every 1/4 year to diminish numerical artifacts, such as system residing in unstable system states.</p>
+<p>They performed a linear analysis.</p>
+<p><strong>Model runs show that when randomly perturbing uniform states that are Turing unstable, the system tends to evolve to a state with a pattern wavenumber close to the wavenumber of the perturbation with the largest growth rate, also referred to as most unstable mode</strong></p>
+<section id="existence-and-stability-of-patterned-system-states" class="level4" data-number="4.1.1.1">
+<h4 data-number="4.1.1.1" class="anchored" data-anchor-id="existence-and-stability-of-patterned-system-states"><span class="header-section-number">4.1.1.1</span> Existence and stability of patterned system states</h4>
+<p>Patterns may exist in th e form of <em>wavetrains</em>: vegetation bands that are migrating uphill. To deal with that, they use a comoving frame (change of varaible) <span class="math display"> \xi = x -st </span> were <span class="math inline">s</span> is the migration speed. By putting this into the equations. A pattern ($w_{p},n_{p} $) with wavenumber <span class="math inline">\kappa</span>exists for a rainfall <span class="math inline">a</span> if is a solution to the system</p>
+<p><span class="math display">
+\begin{aligned}
+&amp; 0=a-w_p-w_p n_p^2+(v+s) \frac{d w_p}{d \xi}+e \frac{d^2 w_p^\gamma}{d \xi^2}\\
+&amp; 0=w_p n_p^2-m n_p+s \frac{d n_p}{d \xi}+\frac{d^2 n_p}{d \xi^2}
+\end{aligned}
+</span> To assess the stability =&gt; perturbation theory</p>
+<p><span class="math display">
+\begin{aligned}
+\frac{\partial w^{\prime}(t, x)}{\partial t}= &amp; e \frac{\partial^2 w^{\prime}(t, x)}{\partial x^2}+v \frac{\partial w^{\prime}(t, x)}{\partial x}-w^{\prime}(t, x)\left(1+n(t, x)^2\right) \\
+&amp; -2 n^{\prime}(t, x) w(t, x) n(t, x) \\
+\frac{\partial n^{\prime}(t, x)}{\partial t}= &amp; \frac{\partial^2 n^{\prime}(t, x)}{\partial x^2}+w^{\prime}(t, x) n(t, x)^2 \\
+&amp; +n^{\prime}(t, x)(2 w(t, x) n(t, x)-m)
+\end{aligned}
+</span> Again, by a change of variables and substituting <span class="math inline">(w^{\prime},n^{\prime})=e^{\lambda t}(w^{\prime}(\xi),n^{\prime}(\xi))</span></p>
+<p><span class="math display">
+\begin{aligned}
+&amp; \lambda \tilde{w}=e \frac{d^2 \tilde{w}}{d \xi^2}+(v+s) \frac{d \tilde{w}}{d \xi}-\tilde{w}\left(1+n_p^2\right)-2 \tilde{n} w_p n_p \\
+&amp; \lambda \tilde{n}=\frac{d^2 \tilde{n}}{d \xi^2}+s \frac{d \tilde{n}}{d \xi}+\tilde{w} n_p^2+\tilde{n}\left(2 w_p n_p-m\right)
+\end{aligned}
+</span></p>
+<p>By defining <span class="math inline">\tilde{q}= d\tilde{w}/d\xi</span> and <span class="math inline">\tilde{r}= d\tilde{n}/d\xi</span> <span class="math display">
+\frac{d}{d \xi}\left(\begin{array}{c}
+\tilde{w} \\
+\tilde{q} \\
+\tilde{n} \\
+\tilde{r}
+\end{array}\right)=\left(\begin{array}{cccc}
+0 &amp; 1 &amp; 0 &amp; 0 \\
+\frac{\lambda+1+n_p^2}{e} &amp; \frac{-v-s}{e} &amp; \frac{2 w_p n_p}{e} &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1 \\
+-n_p^2 &amp; 0 &amp; m-w_p n_p &amp; -s
+\end{array}\right)\left(\begin{array}{c}
+\tilde{w} \\
+\tilde{q} \\
+\tilde{n} \\
+\tilde{r}
+\end{array}\right)
+</span></p>
+<p>Thanks to Floquet theory, you can assess the stability of solutions depending on their <span class="math inline">(\kappa, a)</span> by looking at the eigenvalues of the perturbations who are complex and depend on <span class="math inline">\nu</span>.</p>
+<p><strong>Stable patterns exist in what is referred to as the Busse balloon: the region in <span class="math inline">(a,\kappa)</span>-space for which at least one stable periodic solution exists.</strong></p>
+<p><strong>Stability regions are bordered by marginally stable solutions. Therefore a Busse balloon can be constructed by finding marginnally stable solution</strong> =&gt; Same idea as for the linear analysis but aply on patterns.</p>
+<p>How the eigenvalues obtain the positive real parts?:</p>
+<ul>
+<li><p>period doubling instability</p></li>
+<li><p>sideband instability or Eckhaus instability. This instability is characterized by a chang in the sign of the curvature around <span class="math inline">\nu=0</span>.</p></li>
+</ul>
+</section>
+<section id="ecological-implications" class="level4" data-number="4.1.1.2">
+<h4 data-number="4.1.1.2" class="anchored" data-anchor-id="ecological-implications"><span class="header-section-number">4.1.1.2</span> Ecological implications</h4>
+<ul>
+<li><p>Turing zone and the Busse balloon only partly overlap</p></li>
+<li><p>Patterns outside the Turing zone</p></li>
+<li><p>Multistability</p></li>
+<li><p>A pattern is stable for a range of rainfall <span class="math inline">a</span></p></li>
+<li><p>High wavenumbers are stable for high values of <span class="math inline">a</span></p></li>
+<li><p>The boundary of the Busse ballon is steeper for low rainfall =&gt; sudden desertification for decreasing raifall</p></li>
+</ul>
+</section>
+<section id="system-response-to-changing-environmental-conditions" class="level4" data-number="4.1.1.3">
+<h4 data-number="4.1.1.3" class="anchored" data-anchor-id="system-response-to-changing-environmental-conditions"><span class="header-section-number">4.1.1.3</span> System response to changing environmental conditions</h4>
+<p><strong>the linearization we implicitly apply only enables us to describe the behavior of the system close to the steady state. Consequently, if the system is pushed away from a steady state (during pattern destabilization) it is a priori unknown to which state it will evolve (restabilization).</strong></p>
+<p>The model is run with two changing rainfalls $ da/dt= ^{-4}$ =&gt; 0.1 <span class="math inline">mm \, year^{1}</span> (much slower compare to what I did).</p>
+<p>For the decreasing rainfall:</p>
+<ul>
+<li><p>The transition to a lower wavenumber happens when the boundary of the Busse balloon is reached. During that time, only a change in the amplitude of the patterns.</p></li>
+<li><p>The adapatation of the wavenumberrs is linked to the extiction of vegetation patches.</p></li>
+<li><p>Sudden desertification when there are no more stable patterns =&gt; All the patches go extinct simultaneously.</p></li>
+</ul>
+<p>For the increasing rainfall:</p>
+<ul>
+<li><p>Homogeneous solution destabilize at the lower border of tje Busse balloon.</p></li>
+<li><p>Patches split when wavenumber increases</p></li>
+</ul>
+<p>For the slope terrain, the hysterisis is more pronounce</p>
+</section>
+<section id="wavenumber-selection-the-role-of-rate-of-change-and-noise" class="level4" data-number="4.1.1.4">
+<h4 data-number="4.1.1.4" class="anchored" data-anchor-id="wavenumber-selection-the-role-of-rate-of-change-and-noise"><span class="header-section-number">4.1.1.4</span> Wavenumber selection: the role of rate of change and noise</h4>
+<ul>
+<li><p>At high rate of change, desrtification can take place at reainfall levels for which stable patterned still exist.</p></li>
+<li><p><strong>At sufficiently high noise levels, patches go extinct one-by-one and the system tends to closely follow the boundary of the Busse balloon.</strong></p></li>
+<li><p>For some wavenumber adaptations period doubling occurs =&gt; Half the patches disappear.</p></li>
+<li><p>It depends if this adaptation happens close to the boundary or not</p></li>
+<li><p>Close to the boundary of the Busse balloon, no period doubling.</p></li>
+</ul>
+</section>
+<section id="competition-between-and-rearrangement-of-patches" class="level4" data-number="4.1.1.5">
+<h4 data-number="4.1.1.5" class="anchored" data-anchor-id="competition-between-and-rearrangement-of-patches"><span class="header-section-number">4.1.1.5</span> Competition between and rearrangement of patches</h4>
+<ul>
+<li><p>The disapperance of one patch results in growth of the neighboring patches =&gt; Those buffed patches affect their neighbor and so kill half of the patches.</p></li>
+<li><p>If there is no doubling, there is a spatial rearregment of the patches.</p></li>
+</ul>
+<p>The fact that you have a reaaregment or a perdio doubling depends if the change is due to a perdio doubling instability or a sideband. For high rates and low noise, you have perdio doubling (half the patch disappear =&gt; big juump accross the wavenumber). For low rate of change but high amplitude noise, you have a sideband instability =&gt; reaaregment.</p>
+</section>
+</section>
+</section>
+</section>
+<section id="history-dependent-patterns-of-whole-ecosystem" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> History-dependent patterns of whole ecosystem</h1>
+<section id="model-klausmeier" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="model-klausmeier"><span class="header-section-number">5.1</span> Model: Klausmeier</h2>
+<p><span class="math display">
+\begin{aligned}
+&amp; \frac{\partial u}{\partial t}=\overbrace{w u^2}^{\text {plant }}-\overbrace{B u}^{\text {growth }}+\overbrace{\frac{\partial^2 u}{\partial x^2}}^{\text {plant }} \text { loss } \\
+&amp; \frac{\partial w}{\partial t}=\underbrace{A}_{\begin{array}{c}
+\text { rain } \\
+\text { fall }
+\end{array}}-\underbrace{w}_{\text {evaporation }}-\underbrace{w u^2}_{\begin{array}{c}
+\text { uptake } \\
+\text { by plants }
+\end{array}}+\underbrace{v \partial w / \partial x}_{\begin{array}{c}
+\text { flow } \\
+\text { downhill }
+\end{array}} .
+\end{aligned}
+</span></p>
+<ul>
+<li>periodic boundary conditions</li>
+</ul>
+<p>Ansatz: travelling waves <span class="math inline">u(x,t)=\tilde{u}(z)</span> and <span class="math inline">u(w,t)=\tilde{w}(z)</span> where <span class="math inline">z=x-ct</span>. By substitution, <span class="math display">
+\begin{aligned}
+&amp;\frac{d^2 \tilde{u}}{d z^2}+\frac{c d \tilde{u}}{d z}+\tilde{w} \tilde{u}^2-B \tilde{u}=0\\
+&amp;\frac{(v+c) d \tilde{w}}{d z}+A-\tilde{w}-\tilde{w} \tilde{u}^2=0
+\end{aligned}
+</span></p>
+<p>Patterns solutions correspond to limit cycles of the ODEs.</p>
+<p>He compute the Busse balloon with c (migration speed) and A (envirronment).</p>
+</section>
+<section id="hysterisis" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="hysterisis"><span class="header-section-number">5.2</span> Hysterisis</h2>
+<p>L=150 and $ A [ 0.5,3.2 ] $ The simulation starts with <span class="math inline">A=3.2</span> and is decreased by 0.1 every 2400 time units. When <span class="math inline">A=0.5</span>, he incresed <span class="math inline">A</span> back to 3.2 with the same rate. =&gt; Hysterisis</p>
+<p>Funny point: the system spents time in a zone where the patterns should be unstable.</p>
+<p>Two hypothesis:</p>
+<ul>
+<li>The size of the domain restricts the possible modes =&gt; Increase the region of parameters where the system is stable.</li>
+</ul>
+<p>He did tests and that’s not the case.</p>
+<ul>
+<li>The time interval between tow increase/decrease of <span class="math inline">A</span>: this as an effect. When the decrease is rapid, you can stay on the branch for lower values of <span class="math inline">A</span> (you go deeper into the instability zone.)</li>
+</ul>
+</section>
+</section>
+<section id="regime-shifts-in-models-of-dryland-vegetation" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Regime shifts in models of dryland vegetation</h1>
+<p>Review of diverse vegetation models.</p>
+<p><span class="math display">
+\begin{aligned}
+\partial_t b &amp; =\frac{w}{w+1} b-\mu b+\nabla^2 b, \\
+\partial_t w &amp; =\frac{w}{w+1} h-v w-\gamma \frac{w}{w+1} b+D_w \nabla^2 w \\
+\partial_t h &amp; =p-\frac{w}{w+1} h+D_h \nabla^2 h, \\
+\end{aligned}
+</span></p>
+<p>Comparaison with the dimensionnal model that I used.</p>
+<p>Variables: <span class="math display">
+\begin{aligned}
+b &amp; =\tilde{B}/k_{2}\\
+w &amp; =\tilde{W}/k_{1}\\
+h &amp; =\tilde{O}/k_{1}\\
+\end{aligned}
+</span> Space and time <span class="math display">
+\begin{aligned}
+t &amp; =\tilde{t}/t_0\\
+x &amp; =\tilde{x}/x_0\\
+t_0 &amp; =1/cg_{max}\\
+x_0 &amp; =\sqrt{\tilde{D_{B}}t_0}\\
+\end{aligned}
+</span> Diffusion coefficients: <span class="math display">
+\begin{aligned}
+D_{w} &amp; =\tilde{D_{W}}t_0/x_{0}^{2}=\tilde{D_{W}}/\tilde{D_{B}}\\
+D_{h} &amp; =\tilde{D_{O}}t_0/x_{0}^{2}=\tilde{D_{O}}/\tilde{D_{B}}\\
+\end{aligned}
+</span> Parameters: <span class="math display">
+\begin{aligned}
+\mu &amp; =dt_{0}\\
+\alpha &amp; =\tilde{\alpha}t_{0}\\
+f &amp; =W_{0}\\
+\gamma &amp; =k_{2}/(k_{1}c)\\
+\nu &amp; =r_{W}t_{0}\\
+p &amp; =Rt_{0}/k_{1}\\
+\end{aligned}
+</span></p>
+</section>
+<section id="origin-importance-and-predictive-limits-of-internal-climate-variability-doi" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Origin, importance, and predictive limits of internal climate variability <a href="https://iopscience.iop.org/article/10.1088/2752-5295/accf30">(DOI)</a></h1>
+<section id="what-is-internal-variability" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="what-is-internal-variability"><span class="header-section-number">7.1</span> What is internal variability?</h2>
+<ul>
+<li><p>Internal variability occurs around a mean state, which is dictated by the long-term balance of the system.</p></li>
+<li><p>The atmosphere is accountable for a big part of the internal variability.</p></li>
+<li><p>Q?: What is a climate attractor and are they multiple?</p></li>
+<li><p>Earth’s thermostat can be seen as an attractor mechanism (feedbacks): warming -&gt; rock weathering -&gt; carbon burying -&gt; cooling</p></li>
+</ul>
+</section>
+<section id="why-cara-about-internal-variability" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="why-cara-about-internal-variability"><span class="header-section-number">7.2</span> Why cara about internal variability</h2>
+<ul>
+<li><p>Superposition of external and internal influences complicates the interpretation of the historical climate record as our understanding of climate variability and change relies on a robust separation of these influence.</p></li>
+<li><p>It calls for probabilistic prediction</p></li>
+<li><p>It can lead to extreme events</p></li>
+</ul>
+</section>
+<section id="the-role-of-internal-variability-in-climate-projections" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="the-role-of-internal-variability-in-climate-projections"><span class="header-section-number">7.3</span> The role of internal variability in climate projections</h2>
+<section id="temperatures-projection" class="level3" data-number="7.3.1">
+<h3 data-number="7.3.1" class="anchored" data-anchor-id="temperatures-projection"><span class="header-section-number">7.3.1</span> Temperatures projection</h3>
+<ul>
+<li>Ensemble of 30 runs with CESM1-LE with similar initial conditions.</li>
+</ul>
+<p>All members show a increase in temperature but the spatial pattern differs between runs.</p>
+<ul>
+<li>The signal/noise ratio is larger than one everywher which indicates the emergence of a forced response to external driver.</li>
+</ul>
+</section>
+<section id="contributioon-of-internal-variability-to-total-projection-uncertainty" class="level3" data-number="7.3.2">
+<h3 data-number="7.3.2" class="anchored" data-anchor-id="contributioon-of-internal-variability-to-total-projection-uncertainty"><span class="header-section-number">7.3.2</span> Contributioon of internal variability to total projection uncertainty</h3>
+<ul>
+<li><strong>Total projection uncertainty:</strong> decompose the total uncertainty in three contributions:</li>
+</ul>
+<ol type="1">
+<li><p>scenario uncertainty</p></li>
+<li><p>model response uncertainty</p></li>
+<li><p>Internal variability</p></li>
+</ol>
+<p>How to compute those contribution</p>
+<ul>
+<li><p>Forced response: For each model and scenario by averaging all simulations or statistical fit with a 4th-order polynomial.</p></li>
+<li><p>Internal variability: Variance of the residual from the forced response.</p></li>
+<li><p>Response uncertainty: Variance accros the estimated response in each model for a given scenario. (An estimated response for one run is given by the statistical fit)</p></li>
+<li><p>Scenario uncertainty: averaging all the response for a given scenario and then evaluate the variance across the scenarios.</p></li>
+</ul>
+<p>The uncertainties are approximately additive.</p>
+</section>
+</section>
+<section id="decomposistion-of-drivers" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="decomposistion-of-drivers"><span class="header-section-number">7.4</span> Decomposistion of drivers</h2>
+</section>
+</section>
+<section id="early-warning-signals-for-critical-tranitions-doi" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Early-warning signals for critical tranitions <a href="http://dx.doi.org/10.1038/nature08227">(DOI)</a></h1>
+<section id="critical-slowingdown" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="critical-slowingdown"><span class="header-section-number">8.1</span> Critical slowingdown</h2>
+<ul>
+<li><p>At fold bifurcation points, the dominant eigenvalue characterizing the rates of change around the equilibrium becomes zero. This implies that the system becomes increasingly slow in recovering from small perturbations.</p></li>
+<li><p>The internal slowing down leads to an increase in the autocorrelation.</p></li>
+<li><p>The simplest approach is to look at lag-1 autocorrelation.</p></li>
+<li><p>Increased variance is another possible consequence of critical slowing down. Intuitively, the impacts of shock doe not decay, and their accumulating effects increase the variance of the state variable</p></li>
+<li><p>In principle, critical slowing down could reduce the ability of the system to track the fluctuations, and therby produce an opposite effect on the variance!!</p></li>
+</ul>
+</section>
+<section id="skewness-and-flickering-before-transitions" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="skewness-and-flickering-before-transitions"><span class="header-section-number">8.2</span> Skewness and flickering before transitions</h2>
+<ul>
+<li><p>The asymetry of fluctiations may increase before a catastrophic bifuracation.</p></li>
+<li><p>Close to the bifurcation point, the unstable equilibrium approaches the attractor from one side. In the vicinity of this unstable point, rate of changes are lower and so the system spends more time in that part of the phase space. This increases the skewness if the distribution.</p></li>
+<li><p>An other effect of the vicinity of the boundary of the basin of attraction is the flickering of the system between the two stable states.</p></li>
+</ul>
+</section>
+<section id="examples-in-real-systems" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="examples-in-real-systems"><span class="header-section-number">8.3</span> Examples in real systems</h2>
+<ul>
+<li><p>Flickering preceded the abrupt end of the Younger Fryas cold period.</p></li>
+<li><p>Increased Pleistocene climate variability before the transition from a greenhouse to ice house earth.</p></li>
+</ul>
+</section>
+<section id="outlook" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="outlook"><span class="header-section-number">8.4</span> Outlook</h2>
+<ul>
+<li><p>False negatives</p>
+<ol type="i">
+<li><p>Sudden shift in the system without a gradual approach to a treshold. (N-tipping)</p></li>
+<li><p>Fast and permanent change of external conditions cannot be detected.</p></li>
+<li><p>Statistical difficulty</p></li>
+<li><p>Change is the external forcings</p></li>
+</ol></li>
+<li><p>False positives</p>
+<ol type="i">
+<li><p>Sensitive the filtering techniques</p></li>
+<li><p>Due to a confounding trend within the system or in the external regime of perturbations</p></li>
+</ol></li>
+<li><p>Perturbations will often trigger a transition well before a bifurcation point is reached. Thus, although a trend in the indicators may serve as a warning, the actual moment of a transition remains difficult to predict.</p></li>
+<li><p>A key issue when it comes to practical application is the question of whether a signal can be detected suffi- ciently early for action to be taken to prevent a transition or to prepare for one.</p></li>
+</ul>
+</section>
+</section>
+<section id="turning-back-from-the-brink-detecting-an-impending-regime-shift-in-time-to-avert-it-doi" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Turning back from the brink: Detecting an impending regime shift in time to avert it <a href="https://doi.org/10.1073/pnas.0811729106">(DOI)</a></h1>
+<section id="fisheries-food-web-model" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="fisheries-food-web-model"><span class="header-section-number">9.1</span> Fisheries food web model</h2>
+<p><strong>For short time scale</strong></p>
+<p><span class="math display">
+\begin{gathered}
+\frac{d A}{d t}=-q E A \\
+\frac{d F}{d t}=D_F\left(F_R-F\right)-c_{F A} F A+\sigma \frac{d W}{d t} \\
+\frac{d J}{d t}=-c_{J A} J A-\frac{c_{J F} v F J}{h+v+c_{J F} F}
+\end{gathered}
+</span></p>
+<p>with <span class="math inline">A</span> adult piscivores, <span class="math inline">F</span> adult planktivores and <span class="math inline">J</span> juvenile piscivores.</p>
+<p><em>Remarks</em>:</p>
+<ul>
+<li>The consumption of <span class="math inline">J</span> by <span class="math inline">F</span> is given by <span class="math inline">-\frac{c_{J F} v F J}{h+v+c_{J F} F}</span>. It is reduced by an increase in <span class="math inline">h</span> (refuge habitat of juvenile piscivores)</li>
+</ul>
+<p>Two crucial parameters:</p>
+<ul>
+<li><p>Harvesting of adult piscivores (<span class="math inline">qE</span>)</p></li>
+<li><p>Shoreline development impacts refuge habitat (<span class="math inline">h</span>)</p></li>
+</ul>
+<p><strong>For longer time scales</strong></p>
+<p><span class="math display">
+\begin{gathered}
+A_{t+1}=A_{t+1;1}=s(A_{t;n}+J_{t;n})\\
+F_{t+1}=F_{t+1;1}=F_{t;n} \\
+J_{t+1}=J_{t+1;1}=fA_{t+1} \\
+\end{gathered}
+</span></p>
+<p>where <span class="math inline">s</span> is the survivorship between maturation intervals and <span class="math inline">f</span> is the fecundity rate of <span class="math inline">A</span>.</p>
+</section>
+<section id="management-scenario-and-effects" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="management-scenario-and-effects"><span class="header-section-number">9.2</span> Management scenario and effects</h2>
+<p>Two management scenario were defined</p>
+<ul>
+<li><p><strong>MS1</strong> Immediate reduction in harvest to <span class="math inline">qE=0.1</span></p></li>
+<li><p><strong>MS2</strong> gradual restoration of shorline habitat.</p></li>
+</ul>
+<p>A regime shift is defined as the period over which the annual increase in the plaktivore population exceeded <span class="math inline">10</span> %.</p>
+<ul>
+<li><p><em>Sensitivity analyses show that the attainable proximity to a regime shift is reduced if the management response is weaker or if the system is subject to greater levels of stochastic variation, but is unaffected by the rate of change in the variable driving the regime shift</em></p></li>
+<li><p><em>Where pressure on the ecosystem can be immediately reduced (angling), a shift can be averted by taking action even once a regime shift is underway, whereas, if pressure can only be gradually reduced (restoration of shoreline habitat), action needs to be taken substantially in advance of a shift.</em></p></li>
+<li><p>There is a clear end after which management action to advert transition is impossible. (depending on the amplitude of change?)</p></li>
+<li><p>There is a considarable lag between the time at which one equilibrium does not longer exist and the point at which the regime shift occurs. This allows overshoot error. (Rithcie’s vibe!)</p></li>
+</ul>
+</section>
+<section id="early-warnings-signals" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="early-warnings-signals"><span class="header-section-number">9.3</span> Early Warnings Signals</h2>
+<ul>
+<li><p>For MS1, the warnings in std appear 3-10 years before the end of the policy window (point in time after which we are doomed!)</p></li>
+<li><p>For MS2, the warnings do not appear before the the end of the policy window.</p></li>
+<li><p>This depends on the definition of the “large annual increase” in the indicator.</p></li>
+<li><p>No clear signals for kurosis or skewness.</p></li>
+<li><p>Gradual change in the indicators does not indicate wheter management action is needed.</p></li>
+<li><p>They propose to look at the ratio between high and low frequency in the spectrum. The disappearance of the attractor is signaled by reddning of the noise (low frequency starts to dominate).</p></li>
+</ul>
+</section>
+<section id="discussion" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="discussion"><span class="header-section-number">9.4</span> Discussion</h2>
+<ul>
+<li><p><em>In practice, regime shifts often involve multiple driving vari- ables. Where some of these variables can be manipulated quickly and others only more gradually, it may be possible to ‘‘buy time’’ to ameliorate a slow variable by implementing changes in a variable that can be rapidly manipulated. For instance, if the policy window for preventing a shoreline-induced regime shift through habitat restoration has closed, it may still be possible to avert a shift by reducing angling pressure. This effectively provides additional time to rehabilitate shoreline habitat. Identifying fast management variables that can act as ‘‘emergency levers’’ to extend our opportunity for addressing slow management variables may be critical to avoiding regime shifts.</em></p></li>
+<li><p>Varance and AR1 can be problematic as early warnings in two ways.</p>
+<ul>
+<li><p>The changes are small. Difficult to detect</p></li>
+<li><p>It gives no indication of how close to the regime shift we are. It is needed to define of specific values indicators that should trigger management action.</p></li>
+</ul></li>
+<li><p>The indication should appears ideally when the first stable attractor disappear. Spectral density ratio could be a solution.</p></li>
+</ul>
+</section>
+</section>
+<section id="resilience-adaptability-and-transormability-in-social-ecological-systems" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Resilience, Adaptability and Transormability in Social-ecological Systems</h1>
+<ul>
+<li><p>Resilience needs to be considered in terms of the attributes:</p></li>
+<li><p>Three attributes: resilience, adaptability and transformability</p></li>
+<li><p>Adaptative cycle: Four phases</p>
+<ol type="1">
+<li>Growth and exploitation phase (<span class="math inline">r</span>): accumulation of resources, predictability</li>
+<li>Conservation phase (<span class="math inline">K</span>): System begins to be locked and less flexible</li>
+<li>Collapse and release phase (<span class="math inline">\Omega</span>):</li>
+<li>Reorganization phase (<span class="math inline">\alpha</span>)</li>
+</ol></li>
+<li><p>Resilience is the capacity of a system to absorb disturbance and reorganize while undergoing change so as to still retain essentially the same function, structure, identity, and feedbacks. Four aspects of resilience:</p>
+<ul>
+<li>Latitude</li>
+<li>Resistance: difficulty to change the system</li>
+<li>Precariousness: How close to a treshold</li>
+<li>Panarchy: Cross-scale interactions</li>
+</ul></li>
+<li><p>Adapability: Adaptability is the capacity of actors in a system to influence resilience. (Vegetation patterns is an example) For Social-ecological Systems (SES), the adaptability is a mainly a function of social component. <strong>Four paths of actions:</strong></p>
+<ul>
+<li>Move treshold away (change in precariousness)</li>
+<li>Move the system away from the treshold (change in latitude)</li>
+<li>Make the treshold easier of more difficult to reach. (change in resistance)</li>
+<li>Manage cross-scale interaction</li>
+</ul></li>
+<li><p>Transformability: The capacity to create a fundamentally new system when ecological, economic, or social (including political) conditions make the existing system untenable.</p></li>
+<li><p>Distinction between evolved system (life) and recently developed one (SES): the former’s history allows it to play with fire (high precariousness and high resistance). For the SESs, the absence of co-evolutionary histories creates a lack of appropiate feedbacks.</p></li>
+</ul>
+</section>
+<section id="machine-learning-in-climate-maike-sonnewald" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Machine learning in climate (Maike Sonnewald)</h1>
+<p>Two types of ML:</p>
+<ul>
+<li><p>supervised and reinforcement learning (desinged by humans)</p></li>
+<li><p>unsupervised learning</p></li>
+</ul>
+<p>She will talk about unsupervised learning</p>
+<p>Different methods existe to find patterns. Depending on the data distribution, some of them work better than other.</p>
+<ul>
+<li><p>K-means is a very simple method.</p></li>
+<li><p>Akaike information criterion.</p></li>
+<li><p>Be careful of over fitting.</p></li>
+<li><p>Patterns that seem to be ok can be totally misleading.</p></li>
+<li><p>To assess if your model is good, you have to use information criteria. Am I gaining information by adding more complexity (for the K-means, it can mean adding new cluster or adding variable)</p></li>
+<li><p>Other method: DBSCAN. Association by closer neigbour.</p></li>
+<li><p>Supervised learning: Minimization of a quantity.</p>
+<ul>
+<li>Neural network</li>
+<li>Random forests</li>
+<li>Support vector machine</li>
+<li>…</li>
+</ul></li>
+<li><p>Scaling is important. Example income VS age.</p></li>
+</ul>
+</section>
+<section id="oceanographic-applications-for-machine-learning-southern-ocean-case-study" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> Oceanographic applications for machine learning: southern ocean case study</h1>
+<p>Link between the amount of data vailable and the non linearity?</p>
+<ul>
+<li><p>Uncertainties and errors in parameters</p></li>
+<li><p>Southern ocean is a good case to minimize the range of uncertainty in the parameter, but we don’t have a lot of data.</p></li>
+</ul>
+<section id="find-patterns-in-complex-data" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="find-patterns-in-complex-data"><span class="header-section-number">12.1</span> Find patterns in complex data</h2>
+<ul>
+<li><p>Identify dominant equation terms (regime) in different parts of the ocean.</p></li>
+<li><p>Change framework by looking at barotropic vorticity</p></li>
+<li><p>The learning is somehow supervised because from the 50 clusters initially computed, they form 6 regimes based on their expertise.</p></li>
+<li><p>In southern ocean, we have gyres (subpolar gyres). The difference with gyre in the Northen ocean is that there is no continent.</p></li>
+<li><p>They look at the wind stress and the non linear dissipation terms and look at their contribution to the differents regimes. It appears that the non linear regime is the one that explain the subpolar gyre.</p></li>
+<li><p>When the current reachs topography dissipation appears due to non-linearities. Gyre forms after this dissipation. <strong>Pre conditionning of the flow</strong></p></li>
+</ul>
+</section>
+<section id="inferring-subsurface-circulation-for-climate-process-understanding" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="inferring-subsurface-circulation-for-climate-process-understanding"><span class="header-section-number">12.2</span> Inferring subsurface circulation for climate process understanding</h2>
+<p>L’idée de base est de comprendre comment le frocage en CO2 influence l’overturning circulation. MAis j’ai pas compris comment on fait… C’est fait en identifiant les changements dans les régimes océaniques à l’aide de réseaux de neurones.</p>
+</section>
+<section id="transparant-and-safe-machine-learning" class="level2" data-number="12.3">
+<h2 data-number="12.3" class="anchored" data-anchor-id="transparant-and-safe-machine-learning"><span class="header-section-number">12.3</span> Transparant and safe machine learning</h2>
+<ul>
+<li><p>Une méthode pour vérifier que le réseau fonctionne bien est de regarder comment il a obtenu un résultat. C’est à dire vérifier quelles données il a employé et si ces données sont en effet physiquement pertinentes.</p></li>
+<li><p>On peut aussi avoir une approche baysienne. Dans ce cas les poids sont liés à des distributions de probabilités et on peut faire du Monte-Carlo pour juger de la confiance que l’on peut avoir dans le réseau.</p></li>
+</ul>
+</section>
+</section>
+<section id="towards-neural-earth-system-modelling-by-integrating-artificial-intelligence-in-earth-system-science" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> Towards Neural Earth System Modelling by integrating Artificial Intelligence in Earth System Science</h1>
+<section id="overview-on-earth-system-modelling-and-earth-system-observations" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="overview-on-earth-system-modelling-and-earth-system-observations"><span class="header-section-number">13.1</span> Overview on Earth System Modelling and Earth System Observations</h2>
+<ul>
+<li><p>We have primitive equations for some parts of the climate system but not for all and we have subgrid processes. This implies free parameters that need to be found empirically.</p></li>
+<li><p>Problems with the ESMs:</p>
+<ul>
+<li>Big range of the equilibrium climate sensitivity</li>
+<li>No tippping points</li>
+<li>Missing important processes like carbon cycle, water and nutrient availability or land use climate interactions =&gt; Important for mitigation (CDR, …)</li>
+<li>No extreme events</li>
+</ul></li>
+<li><p>Earth system observations are used to evaluate and compare processed-base model performance, to set the bouindary forcings, …</p></li>
+<li><p>ESOs are also used to influence models output (Data assimilation)</p></li>
+<li><p>Main problems od ESM data assimilation:</p>
+<ul>
+<li>Nonlinear dynamics and non-Gaussian error budgets + high dimensionality</li>
+<li>constraining the governing processes over the different spatio-temporal scales in couple</li>
+</ul></li>
+<li><p>There are gaps in the observations</p></li>
+</ul>
+</section>
+<section id="from-machine-learning-based-data-exploration-towards-learning-physics" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="from-machine-learning-based-data-exploration-towards-learning-physics"><span class="header-section-number">13.2</span> From Machine Learning-based Data Exploration Towards Learning Physics</h2>
+<ul>
+<li><p>First application of ML to climate in the 1990s</p></li>
+<li><p>Different types of application:</p>
+<ul>
+<li>data-driven weather prediction</li>
+<li>accelerate computationally demanding components of forecasting (clouds, …)</li>
+<li>filling the holes in a database</li>
+<li>extract patterns from data. Better than PCE because non linear.</li>
+<li>compute faster and enhance the subgrid processes by training the ML techniques on higher resolution models.</li>
+</ul></li>
+</ul>
+</section>
+<section id="the-fusion-of-process-based-models-and-artificial-intelligence" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="the-fusion-of-process-based-models-and-artificial-intelligence"><span class="header-section-number">13.3</span> The Fusion of Process-based Models and Artificial Intelligence</h2>
+<ul>
+<li><p>Distinction between weakly coupled NESYM hybrids and strongly coupled NESYM hybrids.</p></li>
+<li><p>Example of weakly coupled:</p>
+<ul>
+<li>Neural networks used to emulate subprocesses for ESMs. Problem: stability issues</li>
+<li>Neural networks are trained with model state variables and can be used to emulte the ESMs but also inverting geophysical processes, causation, …</li>
+</ul></li>
+<li><p>Previous uses work with prediction scenarios within the training data distribution =&gt; the non-stationnarity of climate is a problem.</p></li>
+<li><p>Strongly coupled NESYM may be the solution because the ML component can adapt to new information given by the ESM for example.</p></li>
+</ul>
+</section>
+<section id="peering-into-the-black-box" class="level2" data-number="13.4">
+<h2 data-number="13.4" class="anchored" data-anchor-id="peering-into-the-black-box"><span class="header-section-number">13.4</span> Peering into the black box</h2>
+<ul>
+<li><p>Interpretable AI (IAI)</p></li>
+<li><p>explainalbe AI (XAI)</p></li>
+</ul>
+</section>
+</section>
+<section id="rate-induced-tipping-in-ecosystems-and-climate-the-role-of-unstable-states-basin-boundaries-and-transient-dynamics-doi" class="level1" data-number="14">
+<h1 data-number="14"><span class="header-section-number">14</span> Rate-induced tipping in ecosystems and climate: the role of unstable states, basin boundaries and transient dynamics <a href="https://npg.copernicus.org/articles/30/481/2023/">(DOI)</a></h1>
+<section id="introduction" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">14.1</span> Introduction</h2>
+<p><strong>Characteristics of a complex system</strong></p>
+<ul>
+<li><p>Interactions between componenents are nonlinear</p></li>
+<li><p>Complex and partly unpredicatble dynamics or the system can create spontaneously temporal or spatio temporal patterns.</p></li>
+<li><p>Random fluctuations</p></li>
+</ul>
+<p><strong>Two properties of the climate system that needs an extension of the clasisscal bifurcation theory -&gt; critical transistions</strong></p>
+<ol type="1">
+<li><p>Multi-scale processes in space and time</p></li>
+<li><p>Many critical transitions are observed in time-dependent environment</p></li>
+</ol>
+</section>
+<section id="multistability-as-a-prerequisite-for-tipping-phenomena" class="level2" data-number="14.2">
+<h2 data-number="14.2" class="anchored" data-anchor-id="multistability-as-a-prerequisite-for-tipping-phenomena"><span class="header-section-number">14.2</span> Multistability as a prerequisite for tipping phenomena</h2>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
