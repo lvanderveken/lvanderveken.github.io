@@ -325,7 +325,7 @@ Parameters:
 # R-tipping
 
 ::: {.callout-note}
-From this, it is revealed that patches (in reality) disappear on a fast timescale – and satisfy the mentioned assumption that pateches disappear on a fast timescale – if the mean annual rainfall does not change faster than several tens of $mm\, year^{-2}$. (From Bastiaasnsen, 2020)
+From this, it is revealed that patches (in reality) disappear on a fast timescale – and satisfy the mentioned assumption that patches disappear on a fast timescale – if the mean annual rainfall does not change faster than several tens of $mm\, year^{-2}$. (From Bastiaasnsen, 2020)
 :::
 
 
@@ -334,26 +334,27 @@ From this, it is revealed that patches (in reality) disappear on a fast timescal
 
 
 
-![](figure/L= 100.0_r_tipping.png)
-
-![](figure/L= 100.0_r_tipping_bif.png)
-
-![](figure/L= 100.0_r_tipping_2.png)
-
-![](figure/L= 100.0_r_tipping_bif_2.png)
-
-![](figure/L= 100.0_r_tipping_3.png)
-
-![](figure/L= 100.0_r_tipping_bif_3.png)
-
+![](figure/L= 100.0_r_tipping_var1.png)
 
 - We see that if the change is slow engouh we follow the branch until we reach an unstable solution. Then the system spends a certain time around this unstatble equilibrium before jumping to a stable branch. This is because the dynamic around those unstable states is slow. The eigenvalue associated with the unstable mode are sligthly positive close to the bifurcation point wich lead to this slow dynamic
 
 -  If we do the same experiment but with a fast decrease, we see what we called an R-tipping. In that case, the fact that we decrease abruptly the rainfall lead to a bare soil solution.
 
-- We have found a typical timescale of $\tau_{dim}2 d$ from the dimesnionnal analysis. We see that even for a rate of change of the background slower than the typical timescale of the system, the system undergoes a R-tipping. 
+- We have found a typical timescale of $\tau_{dim}=2 d$ from the dimesnionnal analysis. We see that even for a rate of change of the background slower than the typical timescale of the system, the system undergoes a R-tipping. 
 
 - From the computation of the eigenvalue for the initial condition, we find $\tau_{eigen} =50 \, d$. So it doesn't give much informations.
+
+- By removing one pulse on the $n=3$ equilibrium, we want to asses the rearangement timescale. This timescale is much longer than the one associated with the disappearance of a pulse and can be the one that triggers the R-tipping. With this approach the timescale is $\tau_{rear}\sim 2000 d$.
+
+![Starting point $n=3$](figure/L= 100.0_TS_n=2_1.png)
+
+![](figure/L= 100.0_TS_n=2_2.png){width=40%}
+
+![Starting point $n=2$](figure/L= 100.0_TS_n=3_1.png)
+
+![](figure/L= 100.0_TS_n=3_2.png){width=40%}
+
+- Even this very long timescale does not explain the R-tipping because the timescale is still small compare to the one of the external forcing.
 
 # N-tipping
 
