@@ -354,7 +354,14 @@ From this, it is revealed that patches (in reality) disappear on a fast timescal
 
 ![](figure/L= 100.0_TS_n=3_2.png){width=40%}
 
-- Even this very long timescale does not explain the R-tipping because the timescale is still small compare to the one of the external forcing.
+![Starting point $n=4$](figure/L= 100.0_TS_n=4_1.png)
+
+![](figure/L= 100.0_TS_n=4_2.png){width=40%}
+
+- Even this very long timescale does not explain the R-tipping because the timescale is still small compare to the one of the external forcing. 
+
+- I try to modify the value of the following parameters to see the impact on the rearrangement timescale but by now I didn't find the good combination.
+
 
 # N-tipping
 

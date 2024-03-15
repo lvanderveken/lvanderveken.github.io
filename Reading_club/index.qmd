@@ -746,28 +746,28 @@ C'est fait en identifiant les changements dans les régimes océaniques à l'aid
 - explainalbe AI (XAI)
 
 
-# Rate-induced tipping in ecosystems and climate: the role of unstable states, basin boundaries and transient dynamics [(DOI)](https://npg.copernicus.org/articles/30/481/2023/)
 
-## Introduction
+# New Physics-Based Early Warning Signal shows AMOC is on Tipping Course 
 
-**Characteristics of a complex system**
+- First collapse of the AMOC in a CMIP model.
 
-- Interactions between componenents are nonlinear
+- Freshwater forcing: linear increase with a rate of $3. 10^{-4} \text{ Sv year}^{-1}$ for 2200 years where a ma ximum of $F_{H}=0.66 \text{Sv}$.
 
-- Complex and partly unpredicatble dynamics or the system can create spontaneously temporal or spatio temporal patterns.
+- Comparaison with previous housing experiment. Ratio between the cumulative change in AMOC and the cumulative change in North Atlantic freshwater forcing. 
+  * For the paper $R=5.3 \text{ year}^{-1}$
+  * For a previous paper, $R=0.36 \text{ year}^{-1}$
+  * For the FAMOUS models, $R=1 \text{ year}^{-1}$
+  For a low $R$, it means that the AMOC change are driven by the freshwater forcing.
 
-- Random fluctuations
+- Physics-based early warning$ $F_{ovS}$ (the freshwater transport of the AMOC at 34°S). This quantity is linked to the salt-advection feedback.
 
-**Two properties of the climate system that needs an extension of the clasisscal bifurcation theory -> critical transistions**
+- Bias in the CMIP model: the $F_{ovS}$ is positive but in observation this quantity is negative.
 
-1. Multi-scale processes in space and time
+- The minimum of $F_{ovS}$ is an indicator of a collapse. Problem: the minimum is not well predicted. They need the full dataset to assess the minium correctly.
 
-2. Many critical transitions are observed in time-dependent environment
+- The statistical early warning signals are not working.
 
-## Multistability as a prerequisite for tipping phenomena
-
-
-
+- Present-day melt rate of Greenland Ice Sheet  80 times smaller than the simulation freshwater forcing. Due to bias in precipitation in the models and in the salinity budget => the freshwater transport is biased in the models too. Hopefully the fact that we need a gigantic freshwater forcing is due to all thses biases.
 
 
 
